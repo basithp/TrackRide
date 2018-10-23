@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".addtrip.AddTrip"></activity>
+        <activity android:name=".addtrip.AddTripActivity"></activity>
     </application>
 
 </manifest>
