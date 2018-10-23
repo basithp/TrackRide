@@ -1,5 +1,12 @@
 ext {
     versions = [
-            kotlin: '1.2.70'
+            kotlin: '1.2.70',
+            dagger: '2.18'
     ]
+    libraries = [
+            app: [
+                    dagger = "com.google.dagger:dagger:${versions.dagger}"
+            ]
+    ]
+
 }
